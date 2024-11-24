@@ -1,0 +1,82 @@
+body{
+    height: 870px;
+    width: 375px;
+    background-color: hsl(204, 43%, 93%);
+}
+#main-box{
+width: 325px;
+margin: 15px;
+border-radius: 10px;
+}
+#box1{
+    background-color: white;
+}
+#box1 p{
+    color:  hsl(218, 22%, 67%);
+}
+h2{
+    color: white;
+}
+#box2,#box3{
+    color: rgb(248, 242, 242);
+    background-color: rgb(61, 202, 202);
+}
+.box{
+width: 325px;
+padding: 15px;
+margin: 0px;
+}
+#p1{
+    color: hsl(179, 62%, 43%);
+    font-size:x-large;
+    font-weight: bold;
+}
+#p2{
+    color:  hsl(71, 73%, 54%);
+    font-weight: bold;
+}
+#box2 #p3 b{
+    font-weight: bold;
+    font-size: xx-large;
+    color: white;
+}
+#box2 #p3{
+    color:rgb(235, 229, 229);
+}
+button{
+    height: 35px;
+    width: 225px;
+    font-weight: bold;
+    color: white;
+    background-color:  hsl(71, 73%, 54%);
+    border-color:greenyellow;
+    border-radius: 5px;
+}
+
+/* Larger screen */
+@media (min-width:1200px) {
+    body{
+        width: 1200px;
+    }
+    #box1{
+        width: 600px;
+    }
+    #indiv{
+        display: flex;
+        width: 630px;
+    }
+    #box2,#box3{
+        height: 250px;
+        width: 300px;
+
+    }
+    #main-box{
+        margin: 45px 415px;
+    }
+    .attribution{
+        width: 1200px;
+        margin: 5px  85px;
+    }
+
+
+}
